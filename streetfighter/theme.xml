@@ -29,7 +29,7 @@
 					<pos>0 0</pos>
 					<size>1 1</size>
 					<zIndex>1</zIndex>                 
-					<path>./background.png</path>
+					<path>./background_blur.png</path>
 				</image>
 	</view>	
   	<view name="basic">
@@ -45,7 +45,7 @@
 					<pos>0 0</pos>
 					<size>1 1</size>
 					<zIndex>1</zIndex>                 
-					<path>./background.png</path>
+					<path>./background_blur.png</path>
 				</image>
 	</view>		
 </theme>
