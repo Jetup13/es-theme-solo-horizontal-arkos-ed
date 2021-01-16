@@ -35,7 +35,7 @@ version         1.0
          <pos>0.29 0.8</pos>
          <backgroundColor>00000000</backgroundColor>
          <color>ffffff</color>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontPath>./_inc/fonts/NotoSans-Regular.ttf</fontPath>
 	     <fontSize>0.04</fontSize>
          <zIndex>5</zIndex>	     
       </text>
@@ -44,7 +44,7 @@ version         1.0
 	  <text name="clock">
 		<pos>0.94 -0.08</pos>
         <color>ffffff</color>
-        <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+        <fontPath>./_inc/fonts/NotoSans-Regular.ttf</fontPath>
 		<fontSize>0.03</fontSize> 
 		<zIndex>5</zIndex>
 		<format>%H:%M</format>
@@ -54,8 +54,8 @@ version         1.0
 
    <view name="system">
       <helpsystem name="help">
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
-         <fontSize>0.03</fontSize>     
+         <fontPath>./_inc/fonts/NotoSans-Regular.ttf</fontPath>
+         <fontSize>0.0296</fontSize>     
          <pos>0.0 0.960</pos>      
          <textColor>ffffff</textColor>
          <iconColor>ffffff</iconColor>
@@ -64,9 +64,9 @@ version         1.0
 
    <view name="detailed,video,basic">
       <helpsystem name="help">
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontPath>./_inc/fonts/NotoSans-Regular.ttf</fontPath>
          <fontSize>0.0296</fontSize>     
-         <pos>0.02 0.967</pos>      
+         <pos>0.01 0.960</pos>      
          <textColor>ffffff</textColor>
          <iconColor>ffffff</iconColor>
       </helpsystem>
@@ -78,7 +78,7 @@ version         1.0
          <selectedColor>ffffff</selectedColor>
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>8bfeff</secondaryColor>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontPath>./_inc/fonts/NotoSans-Regular.ttf</fontPath>
          <fontSize>0.045</fontSize>
          <forceUppercase>1</forceUppercase>
          <scrollSound>./_inc/sounds/Move.wav</scrollSound>
@@ -103,7 +103,7 @@ version         1.0
    
     <view name="detailed,video">
 	   <text name="md_lbl_releasedate, md_releasedate, md_name">
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontPath>./_inc/fonts/NotoSans-Regular.ttf</fontPath>
          <fontSize>0.040</fontSize>
       </text>
 	  <text name="md_name">
