@@ -103,7 +103,7 @@ version         1.0
    
     <view name="detailed,video">
 	   <text name="md_lbl_releasedate, md_releasedate, md_name">
-         <fontPath>./_inc/fonts/bitcrusher condensed bd.ttf</fontPath>
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.040</fontSize>
       </text>
 	  <text name="md_name">
