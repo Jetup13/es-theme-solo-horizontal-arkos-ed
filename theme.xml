@@ -9,7 +9,16 @@ version         1.0
 
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
-   <formatVersion>4</formatVersion>
+   <formatVersion>7</formatVersion>
+   
+    <variables>
+	 <fullscreenfixSubsetname>Choose Emulationstation That's In Use</fullscreenfixSubsetname>
+   </variables>
+   
+	<subset name="fullscreenfix" displayName="${fullscreenfixSubsetname}">
+        <include name="ES Header" displayName="${ES Header}">./header.xml</include>
+        <include name="ES Fullscreen" displayName="${ES Fullscreen}">./fullscreen.xml</include>
+    </subset>
 
 <feature supported="carousel">
    <view name="system">
@@ -40,23 +49,11 @@ version         1.0
          <zIndex>5</zIndex>	     
       </text>
 	  </view>
-	  <view name="screen">
-	  <text name="clock">
-		<pos>0.94 -0.08</pos>
-        <color>ffffff</color>
-        <fontPath>./_inc/fonts/NotoSans-Regular.ttf</fontPath>
-		<fontSize>0.03</fontSize> 
-		<zIndex>5</zIndex>
-		<format>%H:%M</format>
-	  </text>
-   </view>
 </feature>
 
    <view name="system">
       <helpsystem name="help">
-         <fontPath>./_inc/fonts/NotoSans-Regular.ttf</fontPath>
-         <fontSize>0.0296</fontSize>     
-         <pos>0.0 0.960</pos>      
+         <fontPath>./_inc/fonts/NotoSans-Regular.ttf</fontPath>  
          <textColor>ffffff</textColor>
          <iconColor>ffffff</iconColor>
       </helpsystem>
@@ -64,9 +61,7 @@ version         1.0
 
    <view name="detailed,video,basic">
       <helpsystem name="help">
-         <fontPath>./_inc/fonts/NotoSans-Regular.ttf</fontPath>
-         <fontSize>0.0296</fontSize>     
-         <pos>0.01 0.960</pos>      
+         <fontPath>./_inc/fonts/NotoSans-Regular.ttf</fontPath>     
          <textColor>ffffff</textColor>
          <iconColor>ffffff</iconColor>
       </helpsystem>
@@ -187,6 +182,31 @@ version         1.0
          <unfilledPath>./_inc/images/star_hollow.png</unfilledPath>
       </rating>
    </view>
+   
+  <view name="menu">
+  
+    <menuBackground name="menubg">
+	 <color>202020</color>
+    </menuBackground>
+	
+	<menuText name="menutext, menutitle">
+	  <fontPath>./_inc/fonts/NotoSans-Regular.tt</fontPath>
+	  <fontSize>.042</fontSize>
+	  <color>ffffff</color>
+	</menuText>
+	
+	<menuText name="menufooter, menutextsmall">
+      <fontPath>./_inc/fonts/NotoSans-Regular.tt</fontPath>
+      <fontSize>.039</fontSize>		 
+      <color>ffffff</color>
+    </menuText>
+	
+	<menuTextEdit name="menutextedit">
+      <inactive>./_inc/images/textinput_inactive.png</inactive>
+      <active>./_inc/images/textinput_active.png</active>
+    </menuTextEdit>
+	
+  </view>
    
 <!--   <view name="detailed,video">
 

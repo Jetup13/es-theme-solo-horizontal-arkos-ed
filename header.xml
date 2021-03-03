@@ -1,0 +1,41 @@
+<!--
+theme name:     M00DY x Alekfull - Solo Theme - Xargon's Edition
+creator:		M00DY (M.J.Aman)
+edited by:		Xargon, /u/XargonWan
+ig:				https://www.instagram.com/mjaman/
+artwork: 		Alekfull (https://www.facebook.com/alekfull.arcade/)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+	<view name="screen">
+	  <text name="clock">
+		<pos>0.94 -0.08</pos>
+        <color>ffffff</color>
+        <fontPath>./_inc/fonts/NotoSans-Regular.ttf</fontPath>
+		<fontSize>0.03</fontSize> 
+		<zIndex>5</zIndex>
+		<format>%H:%M</format>
+	  </text>
+   </view>
+
+   <view name="system">
+      <helpsystem name="help">
+         <fontSize>0.0296</fontSize>
+         <pos>0.0 0.960</pos>
+      </helpsystem>
+   </view>  
+
+   <view name="detailed,video,basic">
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/NotoSans-Regular.ttf</fontPath>
+         <fontSize>0.0296</fontSize>
+         <pos>0.01 0.960</pos>
+      </helpsystem>
+   </view>  
+
+   
+</theme>
